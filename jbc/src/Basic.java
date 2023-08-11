@@ -11,6 +11,7 @@ public class Basic {
 		PreparedStatement pst = con.prepareStatement(Query);
 		pst.setInt(1,3);
 		pst.setString(2,"lav");
+		pst.setString(4,"boost");
 		pst.executeUpdate();
 	}
 
